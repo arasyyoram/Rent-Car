@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
+  // console.log(open);
+
   return (
     <nav className="mt-6 container absolute top-0 right-1/2 z-50 translate-x-1/2 mx-auto flex justify-between flex-col sm:flex-row">
       <div className="flex justify-between">
